@@ -6,9 +6,9 @@ btn.addEventListener("click", () => {
   const name = document.getElementById("name").value;
 
   if (!age || !name) {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
-  }
+}
 
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
